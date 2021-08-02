@@ -1,0 +1,17 @@
+.story{
+  background-image: url('../img/overlay-circles-white.png');
+  background-size: 100%;
+  padding: 110px;
+  display: flex;
+  align-content:space-between;
+}
+
+.story__star-ico{
+  width: 48px;
+}
+
+.story__title{
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+  font-size: 48px;
+  margin-bottom: 40px;
+}
