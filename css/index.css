@@ -1,0 +1,7 @@
+@import url(home.css);
+@import url(story.css);
+@import url(footer.css);
+
+body{
+  box-sizing: border-box;
+}
