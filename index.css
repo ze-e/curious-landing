@@ -1,0 +1,13 @@
+body{
+  box-sizing: border-box;
+}
+
+.home{
+  background-color: rgb(193, 7, 10);
+}
+
+.home__overlay{
+  background-image: url('./img/key-art-full.jpg');
+  max-width: 1440px;
+  width: 100%;
+}
