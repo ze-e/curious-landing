@@ -69,7 +69,20 @@
   text-align: right;
 }
 
+.home__promo-container.promo_promo:hover{
+  animation: MoveUpDown 0.5s linear infinite;
+}
+
 .home__border{
   position: absolute;
   bottom: 0;
+}
+
+@keyframes MoveUpDown {
+  0%,100%{
+    bottom: 10;
+  }
+  50% {
+    bottom: 80px;
+  }
 }
