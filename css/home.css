@@ -1,18 +1,75 @@
 .home{
-  height: 900px;
+  width: 100%;
   background-color: #6e0506;
-  display: flex;
-  position: relative;
 }
 
 .home__overlay{
   background-image: url('../img/key-art-full.jpg');
-  max-width: 1440px;
   width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
-  text-align: center;
-  justify-self: center;
-  align-self: center;
+  min-height: 1100px;
+  background-position: contain;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+}
+
+.home__promo-container{
+  position: absolute;
+  width: 576px;
+  height: 327px;
+}
+
+.home__promo-container.promo_tout{
+  left: 60px;
+  bottom: 60px;
+}
+
+.home__promo-tout{
+  width: 50%;
+}
+
+.home__promo-tout-buttons{
+  margin-top: 10px;
+  display: flex;
+}
+
+.home__promo-tout-button{
+  width: 32px;
+  height: 32px;
+  background-position: contain;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  margin-left: 10px;
+}
+
+.home__promo-tout-button:hover{
+  opacity: 0.8;
+}
+
+.home__promo-tout-button:first-child{
+  margin-left: 0px;
+}
+
+.button_left{
+  background-image: url('../img/left-arrow.png');
+}
+
+.button_right{
+  background-image: url('../img/right-arrow.png');
+}
+
+.home__sign-promo{
+  width: 50%;
+}
+
+.home__promo-container.promo_promo{
+  right: 60px;
+  bottom: 60px;
+  text-align: right;
+}
+
+.home__border{
+  position: absolute;
+  bottom: 0;
 }

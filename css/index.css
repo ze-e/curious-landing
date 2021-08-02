@@ -4,4 +4,19 @@
 
 body{
   box-sizing: border-box;
+  height: 100%;
+}
+
+button{
+  appearance: none;
+  text-rendering: none;
+  color: none;
+  cursor: pointer;
+  background-color: transparent;
+  box-sizing: border-box;
+  padding: 0px;
+  border-width: 0px;
+  border-style: none;
+  border-color: none;
+  border-image: none;
 }
