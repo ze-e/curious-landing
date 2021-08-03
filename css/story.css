@@ -3,7 +3,13 @@
   background-size: 100%;
   padding: 110px;
   display: flex;
-  align-content:space-between;
+  align-content: stretch;
+  justify-content: space-around;
+}
+
+.story__text-container{
+  max-width: 40%;
+  max-height: 500px;
 }
 
 .story__star-ico{
@@ -12,8 +18,9 @@
 
 .story__border-span{
   background: red;
-  height: 80px;
-  width: 50px;
+  height: 60px;
+  width: 60px;
+  margin-left: 48px;
 }
 
 .story__title{
@@ -28,11 +35,13 @@
   font-style: normal;
   display: flex;
   margin-left: 48px;
-  max-width: 40%;
+  line-height: 1.5em;
 }
 
 .story__img-container{
-  max-width: 40%;
+  margin-left: 100px;
+  max-width: 50%;
+  height: 500px;
 }
 
 .story__img{
