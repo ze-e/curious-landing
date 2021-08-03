@@ -1,5 +1,6 @@
 .story{
-  background-image: url('../img/overlay-circles-white.png');
+  /* background-image: url('../img/overlay-circles-white.png'); */
+  background-image: url('../img/white-circle-bg.jpg');
   background-size: 100%;
   padding: 110px;
   display: flex;
@@ -47,4 +48,11 @@
 .story__img{
   width: 100%;
   height: 100%;
+}
+
+@media screen and (max-width: 768px){
+}
+
+@media screen and (max-width: 420px){
+  
 }
