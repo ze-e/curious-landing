@@ -1,6 +1,6 @@
 .home{
   width: 100%;
-  background-color: #6e0506;
+  /* background-color: #6e0506; */
 }
 
 .home__overlay{
@@ -71,6 +71,10 @@
 
 .home__sign-promo{
   width: 100%;
+}
+
+.home__promo-link:hover{
+  opacity: 1.0;
 }
 
 .home__promo-container.promo_promo{
