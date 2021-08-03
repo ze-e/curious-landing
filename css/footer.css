@@ -1,6 +1,6 @@
 .footer{
   background-color: #2a2722;
-  padding: 15px 60px;
+  padding: 32px 60px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -13,7 +13,6 @@
 .footer-icons{
   margin-left:40px;
   display: flex;
-
 }
 
 .footer-icons:first-child{
