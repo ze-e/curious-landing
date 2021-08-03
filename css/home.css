@@ -15,17 +15,17 @@
 
 .home__promo-container{
   position: absolute;
-  width: 576px;
-  height: 327px;
+  width: 350px;
+  padding-bottom: 120px;
 }
 
 .home__promo-container.promo_tout{
   left: 60px;
-  bottom: 60px;
+  bottom: 50px;
 }
 
 .home__carousel-img{
-  /* width: 50%; */
+  width: 100%;
   scroll-snap-align: start;
 }
 
@@ -49,6 +49,7 @@
   background-size: 100%;
   display: flex;
   margin-left: 10px;
+  z-index: 1;
 }
 
 .home__promo-tout-button:hover{
@@ -69,7 +70,7 @@
 }
 
 .home__sign-promo{
-  width: 50%;
+  width: 100%;
 }
 
 .home__promo-container.promo_promo{
@@ -85,6 +86,7 @@
 .home__border{
   position: absolute;
   bottom: 0;
+  z-index: 0;
 }
 
 @keyframes MoveUpDown {

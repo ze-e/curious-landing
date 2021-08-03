@@ -10,15 +10,32 @@
   width: 48px;
 }
 
+.story__border-span{
+  background: red;
+  height: 80px;
+  width: 50px;
+}
+
 .story__title{
-  /* font-family: 'Barrio', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif; */
-  font-family: 'Barrio';
+  font-family: 'Barrio', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
   font-style: normal;
   font-size: 48px;
   margin-bottom: 40px;
 }
 
 .story__description{
-  font-family: 'McLaren';
+  font-family: 'McLaren', 'Gill Sans', 'Trebuchet MS', sans-serif;
   font-style: normal;
+  display: flex;
+  margin-left: 48px;
+  max-width: 40%;
+}
+
+.story__img-container{
+  max-width: 40%;
+}
+
+.story__img{
+  width: 100%;
+  height: 100%;
 }

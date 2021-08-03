@@ -30,7 +30,8 @@ autoChangeSlide();
 
   function changeSlide(changeBy) {
     currentItem += changeBy;
-    if(currentItem  > carouselItems.length - 1) currentItem = 0;
+    if(currentItem < 0) currentItem = carouselItems.length - 1;
+    if(currentItem > carouselItems.length - 1) currentItem = 0;
 
     if (carouselElement) {
       const scrollLeft = Math.floor(carouselElement.scrollWidth  * (currentItem / carouselItems.length));
@@ -39,12 +40,11 @@ autoChangeSlide();
   }
 
   function autoChangeSlide() {
-    setInterval(changeSlide, 5000, 1);
+    setInterval(changeSlide, 8000, 1);
   }
 
 //attach events
 document.querySelector('.button_left').addEventListener('click', ()=>{changeSlide(-1)});
 document.querySelector('.button_right').addEventListener('click', ()=>{changeSlide(1)});
-
 }
 
