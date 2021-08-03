@@ -53,6 +53,7 @@
 
 .home__promo-tout-button:hover{
   opacity: 0.8;
+  cursor: pointer;
 }
 
 .home__promo-tout-button:first-child{
