@@ -1,0 +1,42 @@
+.footer{
+  background-color: #2a2722;
+  padding: 15px 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-icons, .footer-links{
+  list-style: none;
+}
+
+.footer-icons{
+  margin-left:40px;
+}
+
+.footer-icons:first-child{
+  margin-left: 0px;
+}
+
+.icon_dreamworks{
+  background-image: url('../img/dreamworks-icon.png');
+}
+
+.icon_captain-underpants{
+  background-image: url('../img/captain-underpants-icon.png');
+}
+
+.icon_captain-underpants{
+  background-image: url('../img/rating-icon.jpg');
+}
+
+.footer-link-item{
+  text-transform: uppercase;
+}
+
+.footer-link-item::after{
+  content: ' | ';
+}
+
+.footer-link-item:last-child::after{
+  content: '';
+}
