@@ -3,6 +3,7 @@
   padding: 15px 60px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .footer-icons, .footer-links{
@@ -11,6 +12,8 @@
 
 .footer-icons{
   margin-left:40px;
+  display: flex;
+
 }
 
 .footer-icons:first-child{
@@ -18,7 +21,18 @@
 }
 
 .footer-icon{
-  width: 160px;
+  width: 131px;
+  height: 61px;
+
+  margin-left: 60px;
+  background-position: contain;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+
+.footer-icon:first-child{
+  margin-left: 0px;
 }
 
 .icon_dreamworks{
@@ -29,8 +43,8 @@
   background-image: url('../img/captain-underpants-icon.png');
 }
 
-.icon_captain-underpants{
-  background-image: url('../img/rating-icon.jpg');
+.icon_rating{
+  background-image: url('../img/rating-icon.png');
 }
 
 .footer-links{
@@ -43,6 +57,8 @@
 
 .footer-copyright{
   color: white;
+  text-align: right;
+  margin-top: 4px;
 }
 
 .footer-link{
@@ -58,6 +74,7 @@
   content: ' | ';
   color: white;
   white-space: pre;
+  margin: 0px 10px;
 }
 
 .footer-link-item:first-child::before{

@@ -20,3 +20,9 @@ button{
   border-color: none;
   border-image: none;
 }
+
+p, ul{
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  padding-inline-start: 0px;
+}
