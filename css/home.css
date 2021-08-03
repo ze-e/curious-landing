@@ -24,8 +24,15 @@
   bottom: 60px;
 }
 
-.home__promo-tout{
+.home__carousel-img{
   width: 50%;
+  scroll-snap-align: start;
+}
+
+.home__carousel{
+  overflow-x: hidden;
+  scroll-snap-type: x mandatory;
+  touch-action: pan-x;
 }
 
 .home__promo-tout-buttons{
