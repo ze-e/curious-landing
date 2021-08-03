@@ -11,7 +11,14 @@
 }
 
 .story__title{
-  font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+  /* font-family: 'Barrio', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif; */
+  font-family: 'Barrio';
+  font-style: normal;
   font-size: 48px;
   margin-bottom: 40px;
+}
+
+.story__description{
+  font-family: 'McLaren';
+  font-style: normal;
 }
