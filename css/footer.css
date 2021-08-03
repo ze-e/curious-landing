@@ -30,6 +30,10 @@
   background-position: center;
 }
 
+.footer-icon:hover{
+  animation: GrowShrink 0.5s ease-in-out infinite;
+}
+
 .footer-icon:first-child{
   margin-left: 0px;
 }
@@ -82,4 +86,13 @@
 
 .footer-link-item:first-child::before{
   content: '';
+}
+
+@keyframes GrowShrink {
+  0%,100% {
+      transform: scale(1);
+  }
+  50% {
+      transform: scale(1.15);
+  }
 }
