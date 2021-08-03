@@ -17,6 +17,10 @@
   margin-left: 0px;
 }
 
+.footer-icon{
+  width: 160px;
+}
+
 .icon_dreamworks{
   background-image: url('../img/dreamworks-icon.png');
 }
@@ -29,14 +33,34 @@
   background-image: url('../img/rating-icon.jpg');
 }
 
+.footer-links{
+  display: flex;
+}
+
+.footer-copyright{
+  color: white;
+}
+
+.footer-link{
+  text-decoration: none;
+  color: white;
+}
+
 .footer-link-item{
   text-transform: uppercase;
 }
 
-.footer-link-item::after{
+.footer-link-item::before{
   content: ' | ';
+  color: white;
+  white-space: pre;
 }
 
-.footer-link-item:last-child::after{
+.footer-link-item:first-child::before{
   content: '';
+}
+
+.footer-copyright::before{
+  content: '\a';
+  white-space: pre;
 }
