@@ -25,14 +25,15 @@
 }
 
 .home__carousel-img{
-  width: 50%;
+  /* width: 50%; */
   scroll-snap-align: start;
 }
 
 .home__carousel{
-  overflow-x: hidden;
+  overflow: hidden;
   scroll-snap-type: x mandatory;
   touch-action: pan-x;
+  display: flex;
 }
 
 .home__promo-tout-buttons{
