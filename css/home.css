@@ -1,8 +1,8 @@
 .home{
   width: 100%;
 
-  background-image: url('../img/main-bg.jpg');
-
+  /* background-image: url('../img/main-bg.jpg'); */
+  background-color: #660405;
   /* background-image: url('../img/key-art-full-1.jpg'); */
   background-repeat: no-repeat;
   background-position: center;
@@ -72,23 +72,12 @@ background-size: 100%;
   }
 }
 
-.home__promo-container.promo_tout{
-  left: 60px;
-  bottom: 50px;
-}
-
 .home__sign-promo{
   width: 100%;
 }
 
 .home__promo-link:hover{
   opacity: 1.0;
-}
-
-.home__promo-container.promo_promo{
-  right: 60px;
-  bottom: 60px;
-  text-align: right;
 }
 
 .home__sign-promo:hover{
