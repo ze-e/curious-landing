@@ -71,6 +71,20 @@
   background-image: url('../img/rating-icon.png');
 }
 
+@media screen and (max-width: 420px){ 
+  .icon_dreamworks{
+    background-image: url('../img/dreamworks-icon-grey.png');
+  }
+  
+  .icon_captain-underpants{
+    background-image: url('../img/captain-underpants-icon-grey.png');
+  }
+  
+  .icon_rating{
+    background-image: url('../img/rating-icon-grey.png');
+  }
+}
+
 .footer-links-wrapper{
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -78,6 +92,7 @@
 @media screen and (max-width: 420px){ 
   .footer-links-wrapper{
     font-size: 10px;
+    color: #5f5f5f
   }
 }
 
@@ -112,16 +127,16 @@
   color: white;
 }
 
-.footer-link-item::before{
-  /* content: ' | ';
+/* .footer-link-item::before{
+  content: ' | ';
   color: white;
-  white-space: pre; */
-  /* margin: 0px 10px; */
+  white-space: pre;
+  margin: 0px 10px;
 }
 
 .footer-link-item:first-child::before{
   content: '';
-}
+} */
 
 @keyframes GrowShrink {
   0%,100% {
