@@ -1,6 +1,8 @@
 .home{
   width: 100%;
-  background-image: url('../img/main-bg.jpg');
+  /* background-image: url('../img/main-bg.jpg'); */
+  background-image: url('../img/key-art-full-1.jpg');
+  background-color: #6e0506;
   background-repeat: no-repeat;
   background-position:center;
   background-size: cover;
@@ -14,6 +16,7 @@
 
 .home__overlay{
   /* background-image: url('../img/key-art-full-1.jpg'); */
+
   width: 100%;
   min-height: 1100px;
   background-position: contain;
@@ -27,6 +30,7 @@
     background-image: url('../img/key-art-full-mobile.jpg');
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
 }
 
@@ -43,6 +47,8 @@
 @media screen and (max-width: 420px){ 
   .home__promo-container{
     position: relative;
+    padding-bottom: 0px;
+    margin-bottom: 50px;
   }
 }
 
@@ -55,6 +61,7 @@
   width: 100%;
   scroll-snap-align: start;
 }
+
 
 .home__carousel{
   overflow: hidden;
