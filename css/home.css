@@ -19,9 +19,9 @@
 .home__overlay{
 /**/
 background-image: url('../img/key-art-full-1.jpg');
-background-position:center;
+background-position:cover;
 background-repeat: no-repeat;
-background-size: cover;
+background-size: 100%;
 /**/
   width: 100%;
   min-height: 1100px;
