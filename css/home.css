@@ -10,6 +10,7 @@
 @media screen and (max-width: 768px){
   .home{
     background-image: url('../img/main-bg.jpg');
+    min-height: 1350px;
   }
 }
 
