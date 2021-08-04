@@ -95,7 +95,6 @@
 .story__img-container{
   margin-left: 100px;
   max-width: 50%;
-  /* height: 500px; */
 }
 
 @media screen and (max-width: 768px){ 
