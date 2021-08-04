@@ -33,7 +33,6 @@
   }
 }
 
-
 .home__promo-flexbox{
   display: flex;
   justify-content: space-between;
@@ -73,7 +72,6 @@
   width: 100%;
   scroll-snap-align: start;
 }
-
 
 .home__carousel{
   overflow: hidden;
@@ -151,7 +149,7 @@
 }
 
 @keyframes MoveUpDown {
-  0%,100%{
+  0%, 100%{
     bottom: 10;
   }
   50% {
