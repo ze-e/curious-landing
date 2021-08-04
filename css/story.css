@@ -14,7 +14,7 @@
   }
 }
 
-@media screen and (max-width: 950px){ 
+@media screen and (max-width: 768px){ 
   .story{
     padding: 32px;
     flex-direction: column;
@@ -26,7 +26,7 @@
   max-height: 500px;
 }
 
-@media screen and (max-width: 950px){ 
+@media screen and (max-width: 768px){ 
   .story__text-container{
     max-width: 100%;
     margin-bottom: 16px;
@@ -39,7 +39,7 @@
   display: block;
 }
 
-@media screen and (max-width: 950px){ 
+@media screen and (max-width: 768px){ 
   .story__star-ico{
     visibility: hidden;
     display: none;
@@ -55,7 +55,7 @@
   visibility: visible;
 }
 
-@media screen and (max-width: 950px){ 
+@media screen and (max-width: 768px){ 
   .story__border-span{
     margin-left: 0px;
     display: none;
@@ -78,7 +78,7 @@
   line-height: 1.5em;
 }
 
-@media screen and (max-width: 1276px){ 
+@media screen and (max-width: 1290px){ 
   .story__description{
     margin-left: 0px;
   }
@@ -87,25 +87,23 @@
 .story__img-container{
   margin-left: 100px;
   max-width: 50%;
-  height: 500px;
+  /* height: 500px; */
 }
 
-@media screen and (max-width: 950px){ 
+@media screen and (max-width: 768px){ 
   .story__img-container{
     margin-left: 0px;
     max-width: 100%;
-    height: 253px;
   }
 }
-
 
 .story__img{
   width: 100%;
 }
 
-@media screen and (max-width: 950px){ 
+@media screen and (max-width: 768px){ 
   .story__img{
-    max-width: 100%;
+    height: 100%;
   }
 }
 
