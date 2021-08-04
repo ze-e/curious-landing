@@ -98,8 +98,9 @@
   z-index: 1;
 }
 
-.home__promo-tout-butto:hover{
-  opacity: 1.0;
+.home__promo-tout-button:hover{
+  opacity: 0.8;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 768px){ 
@@ -107,11 +108,10 @@
     width: 64px;
     height: 64px;
   }
-}
 
-.home__promo-tout-button:hover{
-  opacity: 0.8;
-  cursor: pointer;
+  .home__promo-tout-button:hover{
+    opacity: 1.0;
+  }
 }
 
 .home__promo-tout-button:first-child{
