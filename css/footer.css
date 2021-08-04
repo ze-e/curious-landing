@@ -10,7 +10,7 @@
   .footer{
     flex-direction: column;
     justify-content: center;
-    padding: 0px;
+    padding: 32px 0px;
   }
 }
 
