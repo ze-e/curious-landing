@@ -141,7 +141,7 @@
   text-align: right;
 }
 
-.promo_promo:hover{
+.home__sign-promo:hover{
   animation: MoveUpDown 0.5s linear infinite;
 }
 
