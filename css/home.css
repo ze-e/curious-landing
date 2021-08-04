@@ -1,6 +1,5 @@
 .home{
   width: 100%;
-  /* background-image: url('../img/main-bg.jpg'); */
   background-image: url('../img/key-art-full-1.jpg');
   background-color: #6e0506;
   background-repeat: no-repeat;
@@ -35,16 +34,23 @@
 /* @media screen and (max-width: 768px){
 } */
 
+.home__promo-flexbox{
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 60px;
+  box-sizing: border-box;
+}
 
 .home__promo-container{
-  position: absolute;
   width: 350px;
   padding-bottom: 120px;
 }
 
 @media screen and (max-width: 420px){ 
   .home__promo-container{
-    position: relative;
     padding-bottom: 0px;
     margin-bottom: 50px;
   }
@@ -115,7 +121,7 @@
   text-align: right;
 }
 
-.home__promo-container.promo_promo:hover{
+.promo_promo:hover{
   animation: MoveUpDown 0.5s linear infinite;
 }
 
