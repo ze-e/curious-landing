@@ -6,8 +6,14 @@
   background-size: cover;
 }
 
+@media screen and (max-width: 420px){
+  .home{
+    background-image: url('../img/main-bg.jpg');
+  }
+}
+
 .home__overlay{
-  background-image: url('../img/key-art-full-1.jpg');
+  /* background-image: url('../img/key-art-full-1.jpg'); */
   width: 100%;
   min-height: 1100px;
   background-position: contain;
@@ -16,10 +22,28 @@
   position: relative;
 }
 
+@media screen and (max-width: 420px){ 
+  .home__overlay{
+    background-image: url('../img/key-art-full-mobile.jpg');
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* @media screen and (max-width: 768px){
+} */
+
+
 .home__promo-container{
   position: absolute;
   width: 350px;
   padding-bottom: 120px;
+}
+
+@media screen and (max-width: 420px){ 
+  .home__promo-container{
+    position: relative;
+  }
 }
 
 .home__promo-container.promo_tout{
