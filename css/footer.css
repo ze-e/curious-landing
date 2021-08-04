@@ -109,13 +109,14 @@
 
 .footer-link-item{
   text-transform: uppercase;
+  color: white;
 }
 
 .footer-link-item::before{
   /* content: ' | ';
   color: white;
   white-space: pre; */
-  margin: 0px 10px;
+  /* margin: 0px 10px; */
 }
 
 .footer-link-item:first-child::before{
