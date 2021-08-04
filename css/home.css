@@ -13,15 +13,16 @@
   .home{
     background-image: url('../img/main-bg.jpg');
     min-height: 1350px;
+    background
   }
 }
 
 .home__overlay{
 /**/
 background-image: url('../img/key-art-full-1.jpg');
-background-position: cover;
+background-position:center;
 background-repeat: no-repeat;
-background-size: 100%;
+background-size: cover;
 /**/
   width: 100%;
   min-height: 1100px;
