@@ -92,7 +92,7 @@ background-size: 100%;
 }
 
 .home__sign-promo:hover{
-  animation: MoveUpDown 0.5s linear infinite;
+  animation: MoveUpDown 0.5s ease infinite;
 }
 
 .home__border{
@@ -102,10 +102,15 @@ background-size: 100%;
 }
 
 @keyframes MoveUpDown {
-  0%, 100%{
-    bottom: 10;
+  0% {
+    transform: translateY(-10%);
   }
+
   50% {
-    bottom: 80px;
+    transform: translateY(10%);
+  }
+
+  100% {
+    transform: translateY(-10%);
   }
 }
