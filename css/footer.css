@@ -112,9 +112,9 @@
 }
 
 .footer-link-item::before{
-  content: ' | ';
+  /* content: ' | ';
   color: white;
-  white-space: pre;
+  white-space: pre; */
   margin: 0px 10px;
 }
 
