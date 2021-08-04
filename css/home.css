@@ -5,7 +5,7 @@
 
   /* background-image: url('../img/key-art-full-1.jpg'); */
   background-repeat: no-repeat;
-  background-position:center;
+  background-position: center;
   background-size: cover;
 }
 
@@ -13,7 +13,6 @@
   .home{
     background-image: url('../img/main-bg.jpg');
     min-height: 1350px;
-    background
   }
 }
 
@@ -76,62 +75,6 @@ background-size: cover;
 .home__promo-container.promo_tout{
   left: 60px;
   bottom: 50px;
-}
-
-.home__carousel-img{
-  width: 100%;
-  scroll-snap-align: start;
-}
-
-.home__carousel{
-  overflow: hidden;
-  scroll-snap-type: x mandatory;
-  touch-action: pan-x;
-  display: flex;
-}
-
-.home__promo-tout-buttons{
-  margin-top: 10px;
-  display: flex;
-}
-
-.home__promo-tout-button{
-  width: 32px;
-  height: 32px;
-  background-position: contain;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  display: flex;
-  margin-left: 10px;
-  z-index: 1;
-}
-
-.home__promo-tout-button:hover{
-  opacity: 0.8;
-  cursor: pointer;
-}
-
-@media screen and (max-width: 768px){ 
-  .home__promo-tout-button{
-    width: 64px;
-    height: 64px;
-  }
-
-  .home__promo-tout-button:hover{
-    opacity: 1.0;
-  }
-}
-
-.home__promo-tout-button:first-child{
-  margin-left: 0px;
-}
-
-.button_left{
-  background-image: url('../img/left-arrow.png');
-}
-
-.button_right{
-  background-image: url('../img/right-arrow.png');
 }
 
 .home__sign-promo{

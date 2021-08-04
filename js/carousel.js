@@ -2,8 +2,8 @@
 window.onload = () =>{
 
 //query
-const carouselElement = document.querySelector('.home__carousel');
-const carouselItems = document.querySelectorAll('.home__carousel-img');
+const carouselElement = document.querySelector('.carousel');
+const carouselItems = document.querySelectorAll('.carousel__img');
 
 //set var
 let currentItem = 0;
