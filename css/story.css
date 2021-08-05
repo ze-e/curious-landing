@@ -66,9 +66,12 @@
   font-style: normal;
   margin-left: 48px;
   line-height: 1.5em;
-  overflow-y: -moz-scrollbars-vertical; 
   overflow-y: scroll; 
   max-height: 200px;
+
+  /*firefox scrollbar*/
+  scrollbar-color: rgb(255, 0, 0) #fff;
+  scrollbar-width: thin;
 }
 
 .story__description::-webkit-scrollbar {
