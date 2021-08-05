@@ -19,6 +19,7 @@ function switchCss(){
     style1.rel='stylesheet';
     document.getElementsByTagName('head')[0].appendChild(style1);
 
+    //show which style is active
     document.querySelector(".dev").textContent = "CSS : index1";
   }
   else{
@@ -29,7 +30,7 @@ function switchCss(){
     style2.href='./css/index2.css';
     style2.rel='stylesheet';
     document.getElementsByTagName('head')[0].appendChild(style2);
-
+    //show which style is active
     document.querySelector(".dev").textContent = "CSS : index2";
   }
 
