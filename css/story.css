@@ -64,7 +64,6 @@
 .story__description{
   font-family: 'McLaren', 'Gill Sans', 'Trebuchet MS', sans-serif;
   font-style: normal;
-  display: flex;
   margin-left: 48px;
   line-height: 1.5em;
   overflow-y: -moz-scrollbars-vertical; 
