@@ -14,6 +14,8 @@ function switchCss(){
     style1.href='./css/index.css';
     style1.rel='stylesheet';
     document.getElementsByTagName('head')[0].appendChild(style1);
+
+    document.querySelector(".dev").textContent = "CSS : index1";
   }
   else{
     document.querySelector("#styleId").remove();
@@ -23,6 +25,8 @@ function switchCss(){
     style2.href='./css/index2.css';
     style2.rel='stylesheet';
     document.getElementsByTagName('head')[0].appendChild(style2);
+
+    document.querySelector(".dev").textContent = "CSS : index2";
   }
 
 }
