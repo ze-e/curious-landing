@@ -53,23 +53,6 @@
   }
 }
 
-.story__border-span{
-  background: red;
-  height: 60px;
-  width: 60px;
-  margin-left: 48px;
-  display: block;
-  visibility: visible;
-}
-
-@media screen and (max-width: 768px){ 
-  .story__border-span{
-    margin-left: 0px;
-    display: none;
-    visibility: hidden;
-  }
-}
-
 .story__title{
   font-family: 'Barrio', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
   font-style: normal;
@@ -84,6 +67,25 @@
   display: flex;
   margin-left: 48px;
   line-height: 1.5em;
+  overflow-y: -moz-scrollbars-vertical; 
+  overflow-y: scroll; 
+  max-height: 200px;
+}
+
+.story__description::-webkit-scrollbar {
+  width: 10px;
+}
+
+.story__description::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+.story__description::-webkit-scrollbar-thumb {
+  background-color: 	rgb(255, 0, 0);
+}
+
+.story__description::-webkit-scrollbar-thumb:hover {
+  background-color: 	rgba(255, 0, 0,0.8);
 }
 
 @media screen and (max-width: 1290px){ 
@@ -91,6 +93,20 @@
     margin-left: 0px;
   }
 }
+
+@media screen and (max-width: 768px){ 
+  .story__description::-webkit-scrollbar{
+    display: none;
+  }
+
+  .story__description{
+    max-height: none;
+    overflow-y: hidden;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+}
+
 
 .story__img-container{
   margin-left: 100px;
@@ -100,6 +116,7 @@
 @media screen and (max-width: 768px){ 
   .story__img-container{
     margin-left: 0px;
+    margin-top: 150px;
     max-width: 100%;
   }
 }
