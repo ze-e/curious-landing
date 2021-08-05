@@ -1,3 +1,5 @@
+//this script can be used for A/B testing css
+
 let styleToggle = 0;
 
 window.onload = () =>{
@@ -30,6 +32,3 @@ function switchCss(){
   }
 
 }
-
-  // <link id="style1" rel="stylesheet" href="./css/index.css">
-  // <link id="style2" rel="stylesheet" href="./css/index2.css">
