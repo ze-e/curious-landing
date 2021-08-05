@@ -1,26 +1,19 @@
 .home{
   width: 100%;
   background-color: #c0070a;
-  /* background-image: url('../img/key-art-full-1.jpg'); */
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-
   position:relative;
 }
 
 @media screen and (max-width: 768px){
   .home{
     background-image: url('../img/key-art-full-mobile-2.jpg');
-    
-    min-height: 1350px;
-
+    background-repeat: no-repeat;
+    background-size: 100%;
   }
 }
 
 .home__overlay{
   background-image: url('../img/key-art-size1.jpg');
-  background-position:cover;
   background-repeat: no-repeat;
   background-size: 100%;
   width: 100%;
@@ -30,17 +23,11 @@
 
 @media screen and (max-width: 768px){ 
   .home__overlay{
-    /* background-image: url('../img/key-art-full-mobile-2.jpg');
-    background-position: contain;
-    background-repeat: no-repeat;
-    background-size: 100%; */
-
     background-image: none;
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-height: 1350px;
-    /* min-height: 2000px; */
+    min-height: 1800px;
   }
 }
 

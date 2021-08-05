@@ -6,12 +6,6 @@
 /* fonts */
 @import url(./fonts/fonts.css);
 
-/* dev */
-.dev{
-  background-color: white;
-  position: absolute;
-}
-
 body{
   box-sizing: border-box;
   height: 100%;
