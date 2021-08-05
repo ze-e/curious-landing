@@ -8,11 +8,8 @@
 
 /* dev */
 .dev{
-  position: sticky;
-  top:0;
-  left: 0;
   background-color: white;
-  clear: both;
+  position: absolute;
 }
 
 body{
