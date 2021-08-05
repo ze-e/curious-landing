@@ -3,14 +3,14 @@
   background-color: #aa0609;
   background-image: url('../img/key-art-full-1.jpg');
   background-repeat: no-repeat;
-  background-position: center;
+  /* background-position: center; */
   background-size: cover;
 }
 
 @media screen and (max-width: 768px){
   .home{
     background-image: url('../img/key-art-full-mobile-2.jpg');
-    
+    background-position: center;
     min-height: 1350px;
   }
 }
