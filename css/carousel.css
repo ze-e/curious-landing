@@ -6,7 +6,7 @@
 }
 
 .carousel__img{
-  width: 100%;
+  width: 350px;
   scroll-snap-align: start;
 }
 
